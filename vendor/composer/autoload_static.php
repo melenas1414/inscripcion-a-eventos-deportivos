@@ -27,9 +27,15 @@ class ComposerStaticInite0bcea5b6811bafd5482a9fc68d5a9b7
         array (
             'rmrevin\\yii\\fontawesome\\' => 24,
         ),
+        'm' => 
+        array (
+            'mdm\\admin\\' => 10,
+        ),
         'd' => 
         array (
             'dmstr\\' => 6,
+            'dee\\angular\\' => 12,
+            'dee\\adminlte\\' => 13,
         ),
         'c' => 
         array (
@@ -78,9 +84,21 @@ class ComposerStaticInite0bcea5b6811bafd5482a9fc68d5a9b7
         array (
             0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
         ),
+        'mdm\\admin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mdmsoft/yii2-admin',
+        ),
         'dmstr\\' => 
         array (
             0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
+        ),
+        'dee\\angular\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deesoft/yii2-angular',
+        ),
+        'dee\\adminlte\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deesoft/yii2-adminlte',
         ),
         'cebe\\markdown\\' => 
         array (
