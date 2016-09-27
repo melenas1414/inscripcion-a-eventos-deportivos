@@ -12,9 +12,7 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-            'admin' => [
-                    'class' => 'mdm\admin\Module',
-                ]
+            
         ],
     'components' => [
         'request' => [
@@ -55,16 +53,6 @@ return [
             'rules' => [
             ],
         ],
-        'authManager' => [
-            'class' => 'yii\rbac\DbManager', // o 'yii\rbac\PhpManager'
-        ],
-    ],
-    'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
-        'allowActions' => [
-        // agregar acciones para permitir acceso a todos
-            'admin/*', // Eliminar cuando ya se haya configurado un usuario administrador
-        ]
     ],
     'params' => $params,
 ];
